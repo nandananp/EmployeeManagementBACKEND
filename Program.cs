@@ -34,7 +34,7 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins(
             "http://localhost:4200",
-           "https://employee-management-system-123.netlify.app"
+           "https://employee-management-frontend-nandana.netlify.app"
         )
         .AllowAnyHeader()
         .AllowAnyMethod();

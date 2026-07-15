@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.dll
+*.pdb
+node_modules/
+dist/

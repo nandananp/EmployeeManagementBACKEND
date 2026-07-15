@@ -26,6 +26,7 @@ namespace WebApplication1.Controllers
                 Id = e.Id,
                 Name = e.Name,
                 Email = e.Email,
+                Department = e.Department,
                 Salary = e.Salary
             });
 
@@ -39,6 +40,7 @@ namespace WebApplication1.Controllers
             {
                 Name = dto.Name,
                 Email = dto.Email,
+                Department = dto.Department,
                 Salary = dto.Salary
             };
 
@@ -55,6 +57,7 @@ namespace WebApplication1.Controllers
                 Id = dto.Id,
                 Name = dto.Name,
                 Email = dto.Email,
+                Department = dto.Department,
                 Salary = dto.Salary
             };
 

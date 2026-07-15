@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "WebApplication1.Models.Employee",
+        "Name": "dto",
+        "Type": "WebApplication1.DTO.CreateEmployeeDto",
         "IsRequired": true
       }
     ],
@@ -18,7 +18,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.EmployeeController",
     "Method": "DeleteEmployees",
-    "RelativePath": "api/Employee/DeleteEmployees",
+    "RelativePath": "api/Employee/DeleteEmployees/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -26,7 +26,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -50,8 +50,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "WebApplication1.Models.Employee",
+        "Name": "dto",
+        "Type": "WebApplication1.DTO.EmployeeDto",
         "IsRequired": true
       }
     ],

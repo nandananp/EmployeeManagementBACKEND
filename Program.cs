@@ -19,13 +19,25 @@ builder.Services.AddScoped<iEmployeeRepository, EmployeeRepository>();
 builder.Services.AddOpenApi();
 
 // 👇 ADD THIS - CORS policy
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowAngularApp", policy =>
+//    {
+//        policy.WithOrigins("http://localhost:4200")
+//      .AllowAnyMethod()
+//      .AllowAnyHeader();
+//    });
+//});
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngularApp", policy =>
     {
-        policy.WithOrigins("http://localhost:4200")
-      .AllowAnyMethod()
-      .AllowAnyHeader();
+        policy.WithOrigins(
+            "http://localhost:4200",
+           "https://employee-management-system-123.netlify.app"
+        )
+        .AllowAnyHeader()
+        .AllowAnyMethod();
     });
 });
 

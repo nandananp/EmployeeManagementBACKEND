@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "c7UNASzK06s=",
+  "dgSpecHash": "hbfySIsSkLk=",
   "success": true,
   "projectFilePath": "C:\\Users\\shanu\\source\\repos\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shanu\\.nuget\\packages\\google_generativeai\\3.6.6\\google_generativeai.3.6.6.nupkg.sha512",
     "C:\\Users\\shanu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\shanu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
     "C:\\Users\\shanu\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",

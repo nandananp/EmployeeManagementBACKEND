@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "WebApplication1/1.0.0": {
         "dependencies": {
+          "Google_GenerativeAI": "3.6.6",
           "Microsoft.AspNetCore.OpenApi": "10.0.10",
           "Microsoft.EntityFrameworkCore": "10.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "10.0.4",
@@ -15,6 +16,14 @@
         },
         "runtime": {
           "WebApplication1.dll": {}
+        }
+      },
+      "Google_GenerativeAI/3.6.6": {
+        "runtime": {
+          "lib/net9.0/GenerativeAI.dll": {
+            "assemblyVersion": "3.6.6.0",
+            "fileVersion": "3.6.6.0"
+          }
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -509,6 +518,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Google_GenerativeAI/3.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nLf7v3qeimZjU6geMBCDytYyGXFnN48JJ+WXWywtV8V8jNlNoXNkyYk4hi4c4m+hkuEPGSL4R94iJr+u86rfxw==",
+      "path": "google_generativeai/3.6.6",
+      "hashPath": "google_generativeai.3.6.6.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "WebApplication1.Controllers.AIController",
+    "Method": "Chat",
+    "RelativePath": "api/AI/chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApplication1.Controllers.ChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.EmployeeController",
     "Method": "AddEmployees",
     "RelativePath": "api/Employee/CreateEmployees",
